@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Equipment Image -->
+        <ImageView
+            android:id="@+id/equipmentImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/img"
+            android:contentDescription="Equipment Image" />
+
+        <!-- Equipment Name -->
+        <TextView
+            android:id="@+id/equipmentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tractor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <!-- Equipment Description -->
+        <TextView
+            android:id="@+id/equipmentDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A powerful machine used for plowing and tilling fields."
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Booking Button -->
+        <Button
+            android:id="@+id/btnBookEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Equipment"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

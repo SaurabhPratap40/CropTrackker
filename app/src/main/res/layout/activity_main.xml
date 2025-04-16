@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
+    <!-- Root LinearLayout to contain all the UI components -->
     <LinearLayout
         android:id="@+id/linearLayoutRoot"
         android:layout_width="match_parent"
@@ -230,7 +231,7 @@
                 android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Equipment Item 9: Combine mini loader (Optional) -->
+        <!-- Equipment Item 9: Mini Loader -->
         <LinearLayout
             android:id="@+id/itemMiniLoader"
             android:layout_width="match_parent"
@@ -256,5 +257,15 @@
                 android:layout_marginStart="16dp" />
         </LinearLayout>
 
+        <!-- Button for My Bookings -->
+        <Button
+            android:id="@+id/btnMyBookings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Bookings"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp" />
+
     </LinearLayout>
+
 </ScrollView>
